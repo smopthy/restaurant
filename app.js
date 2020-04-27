@@ -26,14 +26,7 @@ app.get('/restaurnats/:page_id' , (req , res)=>{
 })
 
 
-// app.get('/search' , (req , res)=>{
-//     const keyword = req.query.keyword
-//     const page_id = restaurant.results.filter( 
-//        page_name => { return page_name.name.toLowerCase().includes(keyword.toLowerCase())
-//     })
-    
-//    res.render('index' , { page_id : page_id,  keyword :keyword }) 
-// })
+
 
 
 app.get('/search', (req, res) => {
